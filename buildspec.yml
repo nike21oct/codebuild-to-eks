@@ -16,4 +16,4 @@ phases:
       - aws eks --region ap-south-1 update-kubeconfig --name mymaincluster
   build:
     commands:
-      - kubectl apply -f deployment
+      - kubectl apply -f pod.yaml
