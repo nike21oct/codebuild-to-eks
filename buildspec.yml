@@ -14,6 +14,8 @@ phases:
       - aws-iam-authenticator help
       # Configure kubectl
       - aws eks --region ap-south-1 update-kubeconfig --name mymaincluster
+      # Create a directory 
+      - mkdir nikhil
   build:
     commands:
       - kubectl apply -f pod.yaml
