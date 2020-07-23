@@ -18,4 +18,5 @@ phases:
       - mkdir nikhil
   build:
     commands:
+      - kubectl create -f pod.yaml
       
